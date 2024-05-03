@@ -27,15 +27,15 @@ pip install pygame
 # Configuration
 Adjust the AI's difficulty by changing the BRAIN_POWER value in the Game.py file:
 
-0.1 for Beginner
-0.4 for Intermediate
-1.0 for Hard
-2.0 for Pro
+-0.1 for Beginner
+-0.4 for Intermediate
+-1.0 for Hard
+-2.0 for Pro
 
 # How to run the Game:-
-1- go to terminal 
-2- run python game.py
-3- scores will be generated in the terminal when the game is terminated.
+- go to terminal 
+- run python game.py
+- scores will be generated in the terminal when the game is terminated.
 
 # Project files 
 
