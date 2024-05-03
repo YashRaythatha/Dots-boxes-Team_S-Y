@@ -28,7 +28,7 @@ DOT_CENTER_WIDTH = 400
 # Intermidiate mode = 0.4
 # Hard mode = 1.0
 # Pro mode = 2.0
-BRAIN_POWER = 0.1
+BRAIN_POWER = 0.4
 
 
 def endGame(board):
