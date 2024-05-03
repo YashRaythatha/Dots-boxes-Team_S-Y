@@ -28,7 +28,7 @@ DOT_CENTER_WIDTH = 400
 # Intermidiate mode = 0.4
 # Hard mode = 1.0
 # Pro mode = 2.0
-BRAIN_POWER = 0.4
+BRAIN_POWER = 1.0
 
 
 def endGame(board):
@@ -192,9 +192,9 @@ def main():
                 rollouts = 3500
             # modify the number of rollouts by the power given by the user
             rollouts *= BRAIN_POWER
-            nextComputerId, currentId = MCTS.MCTS(
+            best_move_id, currentId = MCTS.MCTS(
                 tree, currentId, root.id, rollouts)
-            root = tree[nextComputerId]
+            root = tree[best_move_id]
 
         tempGame = root.board
 
